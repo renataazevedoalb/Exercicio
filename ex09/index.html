@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Listas</title>
+</head>
+<body>
+	<h1>Trabalhando com Listas</h1>
+	<h2>Listas Ordenadas</h2>
+	<p>Por padrão a lista ordenada vai iniciar com a numeração 1</p>
+	<ol>
+		<li>Acordar</li>
+		<li>Escovar os dentes</li>
+		<li>Ligar para o João</li>
+		<li>Tomar café</li>
+	</ol>
+	<p>Mas com o uso do TYPE na tag ol podemos alterar para <b>A, a, I, i</b></p>
+	<ol type="A">
+		<li>Acordar</li>
+		<li>Escovar os dentes</li>
+		<li>Ligar para o João</li>
+		<li>Tomar café</li>
+	</ol>
+	<ol type="a">
+		<li>Acordar</li>
+		<li>Escovar os dentes</li>
+		<li>Ligar para o João</li>
+		<li>Tomar café</li>
+	</ol>
+	<ol type="I">
+		<li>Acordar</li>
+		<li>Escovar os dentes</li>
+		<li>Ligar para o João</li>
+		<li>Tomar café</li>
+	</ol>
+	<ol type="i">
+		<li>Acordar</li>
+		<li>Escovar os dentes</li>
+		<li>Ligar para o João</li>
+		<li>Tomar café</li>
+	</ol>
+	<p>Também podemos iniciar a partir de um determinado número ou letra, para isso adicionamos o <b>START</b> na tag ol</p>
+	<ol type="1" start="5">
+		<li>Acordar</li>
+		<li>Escovar os dentes</li>
+		<li>Ligar para o João</li>
+		<li>Tomar café</li>
+	</ol>
+	<p><B>OU</B></p>
+	<ol type="A" start="5">
+		<li>Acordar</li>
+		<li>Escovar os dentes</li>
+		<li>Ligar para o João</li>
+		<li>Tomar café</li>
+	</ol>
+	<h2>Listas Não Ordenadas</h2>
+	<p>Por padrão a lista não ordenada vai iniciar com um dot no início de cada ítem</p>
+	<ul>
+		<li>Arroz</li>
+		<li>Feijão</li>
+		<li>Macarrão</li>
+	</ul>
+	<p>Podemos alterar ess dot por um circulo com o Type dentro da tag ul</p>
+	<ul type="circle">
+		<li>Arroz</li>
+		<li>Feijão</li>
+		<li>Macarrão</li>
+	</ul>
+	<p>Podemos alterar ess dot por um quadrado com o Type dentro da tag ul</p>
+		<ul type="square">
+			<li>Arroz</li>
+			<li>Feijão</li>
+			<li>Macarrão</li>
+		</ul>
+	<h2>LISTAS MISTAS</h2>
+	<h3>Uma lista dentro de outra lista ordenada</h3>
+		<ol>
+			<li>Antigas</li>
+				<ol type="a">
+					<li>JUJU</li>
+					<li>rere</li>
+					<li>MSN</li>
+				</ol>
+			<li>Novas</li>
+				<ol type="a" start="5">
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JVA</li>
+				</ol>
+		</ol>
+	<h3>Misturando Listas Ordenada com Não Ordenada</h3>
+		<ol>
+			<li>Antigas</li>
+				<ul type="square">
+					<li>JUJU</li>
+					<li>rere</li>
+					<li>MSN</li>
+				</ul>
+			<li>Novas</li>
+				<ul type="square">
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JVA</li>
+				</ul>
+		</ol>
+	<h3>Misturando Listas Não Ordenada com Ordenada</h3>
+		<ul>
+			<li>Antigas</li>
+				<ol type="a">
+					<li>JUJU</li>
+					<li>rere</li>
+					<li>MSN</li>
+				</ol>
+			<li>Novas</li>
+				<ol type="a">
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JVA</li>
+				</ol>
+		</ul>
+		<h2>Lista de definição</h2>
+		<dl>
+			<dt>HTML</dt>
+			<dd>Linguagem de marcação para criação de conteúdo</dd>
+			<dt>CSS</dt>
+			<dd>Linguagem de marcação para criação de um site</dd>
+			<dt>Javascript</dt>
+			<dd>Linguagem de programação para criação de interação</dd>
+
+		</dl>
+</body>
+</html>
